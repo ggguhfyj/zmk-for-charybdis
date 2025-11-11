@@ -34,7 +34,7 @@ behaviors {
                                 &kp LEFT_ALT  &kp SPACE  &to 1       &kp LWIN   &kp SPACE
                                               &mkp MB1   &mkp MB2    &kp ENTER
             >;
-            sensor-bindings = <scroll_encoder>;
+            sensor-bindings = <&scroll_encoder>;
 
         };
 
