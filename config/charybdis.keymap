@@ -59,17 +59,17 @@
 
         layer_0 {
             bindings = <
-&kp GRAVE       &kp N1  &kp N2  &kp N3        &kp N4         &kp N5       &kp N6         &kp N7             &kp N8           &kp N9           &kp N0                  &kp MINUS
-&kp TAB         &kp Q   &kp W   &kp E         &kp R          &kp T        &kp Y          &kp U              &kp I            &kp O            &kp P                   &kp EQUAL
-&kp ESCAPE      &kp A   &kp S   &kp D         &kp F          &kp G        &kp H          &mt RIGHT_SHIFT J  &mt RIGHT_GUI K  &mt RIGHT_ALT L  &mt RIGHT_CONTROL SEMI  &kp SQT
-&kp LEFT_SHIFT  &kp Z   &kp X   &kp C         &kp V          &kp B        &kp N          &kp M              &kp COMMA        &kp PERIOD       &kp FSLH                &kp MINUS
+&kp GRAVE       &kp N1  &kp N2  &kp N3        &kp N4         &kp N5       &kp N6         &kp N7             &kp N8              &kp N9          &kp N0         &kp MINUS
+&kp TAB         &kp Q   &kp W   &kp E         &kp R          &kp T        &kp Y          &kp U              &kp I               &kp O           &kp P          &kp EQUAL
+&kp ESCAPE      &kp A   &kp S   &kp D         &kp F          &kp G        &kp H          &mt RIGHT_SHIFT J  &mt LEFT_CONTROL K  &mt LEFT_ALT L  &kp SEMICOLON  &kp SQT
+&kp LEFT_SHIFT  &kp Z   &kp X   &kp C         &kp V          &kp B        &kp N          &kp M              &kp COMMA           &kp PERIOD      &kp FSLH       &kp MINUS
                                 &kp LEFT_GUI  &kp BACKSPACE  &lt 1 TAB    &kp RIGHT_ALT  &kp SPACE
                                               &mkp LCLK      &mkp RCLK    &kp ENTER
             >;
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
