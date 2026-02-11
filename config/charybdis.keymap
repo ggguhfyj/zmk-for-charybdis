@@ -69,7 +69,7 @@
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
@@ -88,12 +88,12 @@
 
         rainbow_six {
             bindings = <
-&kp ESCAPE         &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp N5          &trans    &trans     &trans     &trans  &trans     &trans
-&kp C_VOLUME_UP    &kp TAB         &kp Q         &kp W         &kp E             &kp R           &trans    &trans     &trans     &trans  &trans     &trans
-&kp C_VOLUME_DOWN  &kp CAPSLOCK    &kp A         &kp S         &kp D             &kp F           &trans    &trans     &trans     &trans  &trans     &trans
-&kp LEFT_CONTROL   &kp LEFT_SHIFT  &kp Z         &kp X         &kp C             &kp V           &trans    &mkp LCLK  &mkp RCLK  &trans  &mkp MCLK  &trans
-                                                 &kp B         &kp G             &kp SPACE       &tog 2    &mkp MB5
-                                                               &kp C_PLAY_PAUSE  &kp LEFT_ALT    &mkp MB4
+&kp ESCAPE    &kp NUMBER_1      &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp N5          &trans    &trans     &trans     &trans  &trans     &trans
+&kp U         &kp TAB           &kp Q         &kp W         &kp E             &kp R           &trans    &trans     &trans     &trans  &trans     &trans
+&kp NUMBER_6  &kp LEFT_SHIFT    &kp A         &kp S         &kp D             &kp F           &trans    &trans     &trans     &trans  &trans     &trans
+&kp NUMBER_7  &kp LEFT_CONTROL  &kp Z         &kp X         &kp C             &kp V           &trans    &mkp LCLK  &mkp RCLK  &trans  &mkp MCLK  &trans
+                                              &kp B         &kp G             &kp SPACE       &tog 2    &mkp MB5
+                                                            &kp C_PLAY_PAUSE  &kp LEFT_ALT    &mkp MB4
             >;
         };
 
