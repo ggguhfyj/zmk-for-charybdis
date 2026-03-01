@@ -71,7 +71,7 @@
 
             sensor-bindings =
                 <&scroll_vertical_encoder>,
-                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,
+                // 编码器1：上下滚动,,,,,,,,,,,,,,,,,,,,,,,,,
                 <&scroll_horizontal_encoder>;
 
             // 编码器2：左右滚动
@@ -81,8 +81,8 @@
             bindings = <
 &kp F1          &kp F2  &kp F3          &kp F4            &kp F5           &kp F6                  &kp F7                 &kp F8             &kp F9           &kp F10           &kp F11  &kp F12
 &kp CAPS        &none   &none           &kp UP_ARROW      &none            &kp LEFT_BRACE          &kp RIGHT_BRACE        &tog 0             &tog 1           &tog 2            &trans   &none
-&kp LEFT_SHIFT  &none   &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &mkp LCLK          &mkp MCLK        &mkp RCLK         &trans   &none
-&kp LCTRL       &none   &kp K_PREV      &kp K_PLAY_PAUSE  &kp C_NEXT       &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_PLAY_PAUSE  &none    &trans
+&kp LEFT_SHIFT  &none   &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW  &kp LEFT_BRACKET        &kp RIGHT_BRACKET      &kt C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_PLAY_PAUSE  &trans   &none
+&kp LCTRL       &none   &kp K_PREV      &kp K_PLAY_PAUSE  &kp C_NEXT       &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &mkp LCLK          &mkp MCLK        &mkp RCLK         &none    &trans
                                         &none             &none            &none                   &kp RIGHT_ALT          &mkp RCLK
                                                           &trans           &trans                  &mkp LCLK
             >;
